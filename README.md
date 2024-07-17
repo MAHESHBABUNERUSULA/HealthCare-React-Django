@@ -21,30 +21,37 @@ A comprehensive Healthcare Management System built using React, Bootstrap, Djang
 ## Setup and Installation
 
 ### Frontend
-1. Navigate to the `healthcare-frontend` directory:
-   ```sh
-   cd healthcare-frontend
-2. Install frontend dependencies:
-  ```sh
-   npm install
-3. Start the frontend development server:
 
-npm start
-Backend
+Navigate to the `healthcare-frontend` directory:
+
+   cd healthcare-frontend
+
+Install frontend dependencies:
+  
+   npm install
+
+Start the frontend development server:
+
+   npm start
+   
+### Backend
 Navigate to the healthcare-backend directory:
 
 cd healthcare-backend
 Set up a virtual environment and activate it:
 
 python -m venv venv
+
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 Install backend dependencies:
+
 pip install -r requirements.txt
+
 Run database migrations:
-sh
-Copy code
+
 python manage.py migrate
+
 Start the backend development server:
-sh
-Copy code
+
 python manage.py runserver
